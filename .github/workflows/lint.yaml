@@ -1,16 +1,23 @@
 name: Preset Security & Metadata Linter
-on: [pull_request]
+on: 
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
 
 jobs:
   security-scan:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Allows the bot to update the README
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Fetches all history for proper git pushing
+
       - name: Scan for Dangerous Commands
         run: |
-          # Define a list of high-risk patterns
           DANGER_ZONE="rm -rf|shutil.rmtree|os.system|subprocess.run|base64.b64decode"
-          
           for file in presets/**/*.py; do
             if grep -E "$DANGER_ZONE" "$file"; then
               echo "::warning file=$file::Dangerous command detected. Manual audit required."
@@ -25,3 +32,15 @@ jobs:
               exit 1
             fi
           done
+
+      - name: Update Dashboard Table
+        # Only run this step on the actual merge to main, not on every PR update
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: |
+          python3 generate_readme.py
+          git config user.name "tuiwall-bot"
+          git config user.email "bot@tuiwall.dev"
+          git add README.md
+          # The '|| exit 0' prevents the action from failing if there are no changes
+          git commit -m "docs: update preset dashboard [skip ci]" || exit 0
+          git push
