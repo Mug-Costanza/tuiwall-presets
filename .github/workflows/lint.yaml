@@ -20,7 +20,7 @@ jobs:
       - name: Validate Metadata Header
         run: |
           for file in presets/**/*.py; do
-            if ! grep -q "--- TUIWALL METADATA ---" "$file"; then
+            if ! grep -q -e "--- TUIWALL METADATA ---" "$file"; then
               echo "::error file=$file::Missing metadata header!"
               exit 1
             fi
