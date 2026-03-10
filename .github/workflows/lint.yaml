@@ -1,0 +1,27 @@
+name: Preset Security & Metadata Linter
+on: [pull_request]
+
+jobs:
+  security-scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Scan for Dangerous Commands
+        run: |
+          # Define a list of high-risk patterns
+          DANGER_ZONE="rm -rf|shutil.rmtree|os.system|subprocess.run|base64.b64decode"
+          
+          for file in presets/**/*.py; do
+            if grep -E "$DANGER_ZONE" "$file"; then
+              echo "::warning file=$file::Dangerous command detected. Manual audit required."
+            fi
+          done
+
+      - name: Validate Metadata Header
+        run: |
+          for file in presets/**/*.py; do
+            if ! grep -q "--- TUIWALL METADATA ---" "$file"; then
+              echo "::error file=$file::Missing metadata header!"
+              exit 1
+            fi
+          done
