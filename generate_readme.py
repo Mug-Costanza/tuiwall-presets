@@ -56,7 +56,7 @@ def generate_organized_content():
                     entry = (
                         f"<details><summary><b>{meta['Name']}</b> - {meta['Description']}</summary>\n\n"
                         f"**Install:**\n{install_cmd}\n\n"
-                        f"<details><summary>📸 View Preview</summary>\n\n"
+                        f"<details><summary>View Preview</summary>\n\n"
                         f"| [![{meta['Name']}]({img_src})]({repo_url}) |\n"
                         f"| :--- |\n"
                         f"| [View Source]({repo_url}) |\n\n"
