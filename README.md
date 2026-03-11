@@ -1,11 +1,28 @@
 # TUIWALL PRESETS
 
 ## Table of Contents
+* [Ambiance](#ambiance)
 * [Dashboard](#dashboard)
 * [Misc](#misc)
 * [System](#system)
 
 ---
+
+### Ambiance
+<details><summary>Click to view gallery</summary>
+
+| [![Matrix](https://raw.githubusercontent.com/Mug-Costanza/tuiwall-presets/main/images/matrix.png)](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/matrix) |
+| :--- |
+| **Matrix** - Digital matrix rain |
+
+
+| [![Rain](https://raw.githubusercontent.com/Mug-Costanza/tuiwall-presets/main/images/rain.png)](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/rain) |
+| :--- |
+| **Rain** - Rainfall with wind |
+
+
+
+</details>
 
 ### Dashboard
 <details><summary>Click to view gallery</summary>
@@ -29,7 +46,10 @@
 ### System
 <details><summary>Click to view gallery</summary>
 
-* [Stats](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/stats) - Displays CPU, RAM, and Disk usage (No Preview)
+| [![Stats](https://raw.githubusercontent.com/Mug-Costanza/tuiwall-presets/main/images/stats.png)](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/stats) |
+| :--- |
+| **Stats** - Displays CPU, RAM, and Disk usage |
+
 
 
 </details>
