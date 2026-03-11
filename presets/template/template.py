@@ -3,9 +3,9 @@
 # -*- mode: python; indent-tabs-mode: nil; python-indent-offset: 4; -*-
 
 # --- TUIWALL METADATA ---
-# Name: name
+# Name: Template
 # Author: username
-# Description: description
+# Description: Template
 # Category: category
 # ------------------------
 
