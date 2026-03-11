@@ -49,18 +49,14 @@ def generate_organized_content():
                 install_cmd = f"```bash\ntuiwall install {name}\n```"
                 
                 if os.path.exists(local_img):
-                    # NESTED DETAILS: 
-                    # 1. Main dropdown shows Name - Description
-                    # 2. Inside: Install command
-                    # 3. Nested dropdown: Image preview
+                    # REMOVED: Nested "View Preview" dropdown
+                    # The image and install command now appear together under the main preset toggle
                     entry = (
                         f"<details><summary><b>{meta['Name']}</b> - {meta['Description']}</summary>\n\n"
                         f"**Install:**\n{install_cmd}\n\n"
-                        f"<details><summary>View Preview</summary>\n\n"
                         f"| [![{meta['Name']}]({img_src})]({repo_url}) |\n"
                         f"| :--- |\n"
                         f"| [View Source]({repo_url}) |\n\n"
-                        f"</details>\n\n"
                         f"</details>\n"
                     )
                 else:
