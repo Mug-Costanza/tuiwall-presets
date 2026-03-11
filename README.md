@@ -19,13 +19,9 @@
 tuiwall install matrix
 ```
 
-<details><summary>View Preview</summary>
-
 | [![Matrix](https://raw.githubusercontent.com/Mug-Costanza/tuiwall-presets/main/images/matrix.png)](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/matrix) |
 | :--- |
 | [View Source](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/matrix) |
-
-</details>
 
 </details>
 
@@ -36,13 +32,9 @@ tuiwall install matrix
 tuiwall install ocean
 ```
 
-<details><summary>View Preview</summary>
-
 | [![Ocean](https://raw.githubusercontent.com/Mug-Costanza/tuiwall-presets/main/images/ocean.png)](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/ocean) |
 | :--- |
 | [View Source](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/ocean) |
-
-</details>
 
 </details>
 
@@ -53,13 +45,22 @@ tuiwall install ocean
 tuiwall install rain
 ```
 
-<details><summary>View Preview</summary>
-
 | [![Rain](https://raw.githubusercontent.com/Mug-Costanza/tuiwall-presets/main/images/rain.png)](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/rain) |
 | :--- |
 | [View Source](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/rain) |
 
 </details>
+
+<details><summary><b>Snowfall</b> - Falling snow</summary>
+
+**Install:**
+```bash
+tuiwall install snowfall
+```
+
+| [![Snowfall](https://raw.githubusercontent.com/Mug-Costanza/tuiwall-presets/main/images/snowfall.png)](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/snowfall) |
+| :--- |
+| [View Source](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/snowfall) |
 
 </details>
 
@@ -93,13 +94,9 @@ tuiwall install donut
 tuiwall install clock
 ```
 
-<details><summary>View Preview</summary>
-
 | [![Clock](https://raw.githubusercontent.com/Mug-Costanza/tuiwall-presets/main/images/clock.png)](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/clock) |
 | :--- |
 | [View Source](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/clock) |
-
-</details>
 
 </details>
 
@@ -144,13 +141,9 @@ tuiwall install template
 tuiwall install stats
 ```
 
-<details><summary>View Preview</summary>
-
 | [![Stats](https://raw.githubusercontent.com/Mug-Costanza/tuiwall-presets/main/images/stats.png)](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/stats) |
 | :--- |
 | [View Source](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/stats) |
-
-</details>
 
 </details>
 
