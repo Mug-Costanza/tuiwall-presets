@@ -10,55 +10,132 @@
 ---
 
 ### Ambiance
-<details><summary>Click to view gallery</summary>
+<details><summary>Click to view category</summary>
+
+<details><summary><b>Matrix</b> - Digital matrix rain</summary>
+
+**Install:**
+```bash
+tuiwall install matrix
+```
+
+<details><summary>📸 View Preview</summary>
 
 | [![Matrix](https://raw.githubusercontent.com/Mug-Costanza/tuiwall-presets/main/images/matrix.png)](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/matrix) |
 | :--- |
-| **Matrix** - Digital matrix rain |
+| [View Source](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/matrix) |
 
+</details>
+
+</details>
+
+<details><summary><b>Rain</b> - Rainfall with wind</summary>
+
+**Install:**
+```bash
+tuiwall install rain
+```
+
+<details><summary>📸 View Preview</summary>
 
 | [![Rain](https://raw.githubusercontent.com/Mug-Costanza/tuiwall-presets/main/images/rain.png)](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/rain) |
 | :--- |
-| **Rain** - Rainfall with wind |
+| [View Source](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/rain) |
 
+</details>
+
+</details>
 
 
 </details>
 
 ### Animation
-<details><summary>Click to view gallery</summary>
+<details><summary>Click to view category</summary>
 
-* [Donut](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/donut) - Spinning ASCII donut (No Preview)
+<details><summary><b>Donut</b> - Spinning ASCII donut (No Preview)</summary>
+
+**Install:**
+```bash
+tuiwall install donut
+```
+
+[View Source](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/donut)
+
+</details>
 
 
 </details>
 
 ### Dashboard
-<details><summary>Click to view gallery</summary>
+<details><summary>Click to view category</summary>
+
+<details><summary><b>Clock</b> - Digital clock</summary>
+
+**Install:**
+```bash
+tuiwall install clock
+```
+
+<details><summary>📸 View Preview</summary>
 
 | [![Clock](https://raw.githubusercontent.com/Mug-Costanza/tuiwall-presets/main/images/clock.png)](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/clock) |
 | :--- |
-| **Clock** - Digital clock |
+| [View Source](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/clock) |
 
+</details>
+
+</details>
 
 
 </details>
 
 ### Misc
-<details><summary>Click to view gallery</summary>
+<details><summary>Click to view category</summary>
 
-* [Template](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/template) - Template (No Preview)
+<details><summary><b>DVD</b> - Bouncing DVD text (No Preview)</summary>
+
+**Install:**
+```bash
+tuiwall install dvd
+```
+
+[View Source](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/dvd)
+
+</details>
+
+<details><summary><b>Template</b> - Template (No Preview)</summary>
+
+**Install:**
+```bash
+tuiwall install template
+```
+
+[View Source](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/template)
+
+</details>
 
 
 </details>
 
 ### System
-<details><summary>Click to view gallery</summary>
+<details><summary>Click to view category</summary>
+
+<details><summary><b>Stats</b> - Displays CPU, RAM, and Disk usage</summary>
+
+**Install:**
+```bash
+tuiwall install stats
+```
+
+<details><summary>📸 View Preview</summary>
 
 | [![Stats](https://raw.githubusercontent.com/Mug-Costanza/tuiwall-presets/main/images/stats.png)](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/stats) |
 | :--- |
-| **Stats** - Displays CPU, RAM, and Disk usage |
+| [View Source](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/stats) |
 
+</details>
+
+</details>
 
 
 </details>
