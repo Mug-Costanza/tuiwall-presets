@@ -10,7 +10,10 @@
 ### Dashboard
 <details><summary>Click to view gallery</summary>
 
-* [Clock](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/clock) - Digital clock (No Preview)
+| [![Clock](https://raw.githubusercontent.com/Mug-Costanza/tuiwall-presets/main/images/clock.png)](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/clock) |
+| :--- |
+| **Clock** - Digital clock |
+
 
 
 </details>
