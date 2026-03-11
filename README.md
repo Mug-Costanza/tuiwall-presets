@@ -19,11 +19,28 @@
 tuiwall install matrix
 ```
 
-<details><summary>📸 View Preview</summary>
+<details><summary>View Preview</summary>
 
 | [![Matrix](https://raw.githubusercontent.com/Mug-Costanza/tuiwall-presets/main/images/matrix.png)](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/matrix) |
 | :--- |
 | [View Source](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/matrix) |
+
+</details>
+
+</details>
+
+<details><summary><b>Ocean</b> - Ocean waves</summary>
+
+**Install:**
+```bash
+tuiwall install ocean
+```
+
+<details><summary>View Preview</summary>
+
+| [![Ocean](https://raw.githubusercontent.com/Mug-Costanza/tuiwall-presets/main/images/ocean.png)](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/ocean) |
+| :--- |
+| [View Source](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/ocean) |
 
 </details>
 
@@ -36,7 +53,7 @@ tuiwall install matrix
 tuiwall install rain
 ```
 
-<details><summary>📸 View Preview</summary>
+<details><summary>View Preview</summary>
 
 | [![Rain](https://raw.githubusercontent.com/Mug-Costanza/tuiwall-presets/main/images/rain.png)](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/rain) |
 | :--- |
@@ -76,7 +93,7 @@ tuiwall install donut
 tuiwall install clock
 ```
 
-<details><summary>📸 View Preview</summary>
+<details><summary>View Preview</summary>
 
 | [![Clock](https://raw.githubusercontent.com/Mug-Costanza/tuiwall-presets/main/images/clock.png)](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/clock) |
 | :--- |
@@ -127,7 +144,7 @@ tuiwall install template
 tuiwall install stats
 ```
 
-<details><summary>📸 View Preview</summary>
+<details><summary>View Preview</summary>
 
 | [![Stats](https://raw.githubusercontent.com/Mug-Costanza/tuiwall-presets/main/images/stats.png)](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/stats) |
 | :--- |
