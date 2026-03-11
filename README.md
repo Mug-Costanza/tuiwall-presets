@@ -2,6 +2,7 @@
 
 ## Table of Contents
 * [Ambiance](#ambiance)
+* [Animation](#animation)
 * [Dashboard](#dashboard)
 * [Misc](#misc)
 * [System](#system)
@@ -20,6 +21,14 @@
 | :--- |
 | **Rain** - Rainfall with wind |
 
+
+
+</details>
+
+### Animation
+<details><summary>Click to view gallery</summary>
+
+* [Donut](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/donut) - Spinning ASCII donut (No Preview)
 
 
 </details>
