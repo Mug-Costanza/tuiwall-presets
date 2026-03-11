@@ -11,10 +11,10 @@ def parse_metadata(file_path):
                 if line.startswith('#'):
                     clean = line.lstrip('#').strip()
                     if ':' in clean:
-                        key, val = clean.split(':', 1)
-                        key = key.strip().capitalize()
+                        parts = clean.split(':', 1)
+                        key = parts[0].strip().capitalize()
                         if key in metadata:
-                            value = val.strip()
+                            value = parts[1].strip()
                             if key == "Category" and value not in ALLOWED_CATEGORIES:
                                 value = "Misc"
                             metadata[key] = value
@@ -24,7 +24,7 @@ def parse_metadata(file_path):
 
 def generate_organized_content():
     preset_dir = "presets"
-    image_dir = "images" # Folder where thumbnails are stored
+    image_dir = "images" 
     sections = {}
     
     if not os.path.exists(preset_dir):
@@ -43,18 +43,33 @@ def generate_organized_content():
                 repo_url = f"https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/{name}"
                 img_src = f"https://raw.githubusercontent.com/Mug-Costanza/tuiwall-presets/main/images/{name}.png"
                 
-                # Check if an image exists locally to decide if we use a thumbnail
                 local_img = os.path.join(image_dir, f"{name}.png")
                 
+                # Installation command block for easy copying
+                install_cmd = f"```bash\ntuiwall install {name}\n```"
+                
                 if os.path.exists(local_img):
-                    # HTML-style centering and sizing for the thumbnail
+                    # NESTED DETAILS: 
+                    # 1. Main dropdown shows Name - Description
+                    # 2. Inside: Install command
+                    # 3. Nested dropdown: Image preview
                     entry = (
+                        f"<details><summary><b>{meta['Name']}</b> - {meta['Description']}</summary>\n\n"
+                        f"**Install:**\n{install_cmd}\n\n"
+                        f"<details><summary>📸 View Preview</summary>\n\n"
                         f"| [![{meta['Name']}]({img_src})]({repo_url}) |\n"
                         f"| :--- |\n"
-                        f"| **{meta['Name']}** - {meta['Description']} |\n\n"
+                        f"| [View Source]({repo_url}) |\n\n"
+                        f"</details>\n\n"
+                        f"</details>\n"
                     )
                 else:
-                    entry = f"* [{meta['Name']}]({repo_url}) - {meta['Description']} (No Preview)\n"
+                    entry = (
+                        f"<details><summary><b>{meta['Name']}</b> - {meta['Description']} (No Preview)</summary>\n\n"
+                        f"**Install:**\n{install_cmd}\n\n"
+                        f"[View Source]({repo_url})\n\n"
+                        f"</details>\n"
+                    )
                 
                 sections[cat].append(entry)
     
@@ -67,8 +82,7 @@ def generate_organized_content():
     
     for cat in sorted(sections.keys()):
         output.append(f"\n### {cat}")
-        output.append("<details><summary>Click to view gallery</summary>\n")
-        # For categories with images, a grid layout looks best
+        output.append("<details><summary>Click to view category</summary>\n")
         for entry in sorted(sections[cat]):
             output.append(entry)
         output.append("\n</details>")
