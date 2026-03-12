@@ -27,7 +27,7 @@ def generate_organized_content():
     image_dir = "images" 
     sections = {}
     
-    # Supported extensions in order of priority
+    # Supported extensions in order of priority (GIFs first for animation)
     EXTENSIONS = [".gif", ".png", ".jpg", ".jpeg"]
     
     if not os.path.exists(preset_dir):
@@ -45,7 +45,7 @@ def generate_organized_content():
                 
                 repo_url = f"https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/{name}"
                 
-                # Determine which image format to use
+                # Determine which image format to use based on priority list
                 local_img = None
                 found_ext = ""
                 for ext in EXTENSIONS:
@@ -53,18 +53,18 @@ def generate_organized_content():
                     if os.path.exists(check_path):
                         local_img = check_path
                         found_ext = ext
-                        break # Stop at the first match based on priority
+                        break # Stop at the highest priority match
                 
-                # Update the image source URL with the detected extension
+                # Construct the raw image URL with the detected extension
                 img_src = f"https://raw.githubusercontent.com/Mug-Costanza/tuiwall-presets/main/images/{name}{found_ext}"
-                
                 install_cmd = f"```bash\ntuiwall install {name}\n```"
                 
                 if local_img:
+                    # Using HTML <img> to limit display size to 400px width
                     entry = (
                         f"<details><summary><b>{meta['Name']}</b> - {meta['Description']}</summary>\n\n"
                         f"**Install:**\n{install_cmd}\n\n"
-                        f"| [![{meta['Name']}]({img_src})]({repo_url}) |\n"
+                        f"| <a href='{repo_url}'><img src='{img_src}' alt='{meta['Name']}' width='400'></a> |\n"
                         f"| :--- |\n"
                         f"| [View Source]({repo_url}) |\n\n"
                         f"</details>\n"
@@ -101,7 +101,7 @@ def update_readme(content):
     marker_end = "# End of List"
     
     if not os.path.exists("README.md"):
-        # Create a basic README if it doesn't exist so the markers can be injected
+        # Create a skeleton if missing
         with open("README.md", "w", encoding='utf-8') as f:
             f.write(f"{marker_start}\n\n{marker_end}")
 
