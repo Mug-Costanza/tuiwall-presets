@@ -27,6 +27,9 @@ def generate_organized_content():
     image_dir = "images" 
     sections = {}
     
+    # Supported extensions in order of priority
+    EXTENSIONS = [".gif", ".png", ".jpg", ".jpeg"]
+    
     if not os.path.exists(preset_dir):
         return "No presets found."
 
@@ -41,16 +44,23 @@ def generate_organized_content():
                     sections[cat] = []
                 
                 repo_url = f"https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/{name}"
-                img_src = f"https://raw.githubusercontent.com/Mug-Costanza/tuiwall-presets/main/images/{name}.png"
                 
-                local_img = os.path.join(image_dir, f"{name}.png")
+                # Determine which image format to use
+                local_img = None
+                found_ext = ""
+                for ext in EXTENSIONS:
+                    check_path = os.path.join(image_dir, f"{name}{ext}")
+                    if os.path.exists(check_path):
+                        local_img = check_path
+                        found_ext = ext
+                        break # Stop at the first match based on priority
                 
-                # Installation command block for easy copying
+                # Update the image source URL with the detected extension
+                img_src = f"https://raw.githubusercontent.com/Mug-Costanza/tuiwall-presets/main/images/{name}{found_ext}"
+                
                 install_cmd = f"```bash\ntuiwall install {name}\n```"
                 
-                if os.path.exists(local_img):
-                    # REMOVED: Nested "View Preview" dropdown
-                    # The image and install command now appear together under the main preset toggle
+                if local_img:
                     entry = (
                         f"<details><summary><b>{meta['Name']}</b> - {meta['Description']}</summary>\n\n"
                         f"**Install:**\n{install_cmd}\n\n"
@@ -77,6 +87,7 @@ def generate_organized_content():
     output.append("\n---")
     
     for cat in sorted(sections.keys()):
+        anchor = cat.lower().replace(" ", "-")
         output.append(f"\n### {cat}")
         output.append("<details><summary>Click to view category</summary>\n")
         for entry in sorted(sections[cat]):
@@ -90,7 +101,9 @@ def update_readme(content):
     marker_end = "# End of List"
     
     if not os.path.exists("README.md"):
-        return
+        # Create a basic README if it doesn't exist so the markers can be injected
+        with open("README.md", "w", encoding='utf-8') as f:
+            f.write(f"{marker_start}\n\n{marker_end}")
 
     with open("README.md", "r", encoding='utf-8') as f:
         full_text = f.read()
