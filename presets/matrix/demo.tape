@@ -2,6 +2,7 @@ Output matrix.gif
 Set FontSize 20
 Set Width 1200
 Set Height 600
+Set TypingSpeed 0ms
 
 # Start a fresh tmux session inside the recording
 Type "tmux new-session -d -s vhs_session && tmux attach-session -t vhs_session" Enter
