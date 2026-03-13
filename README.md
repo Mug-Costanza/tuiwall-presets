@@ -32,7 +32,7 @@ tuiwall install matrix
 tuiwall install ocean
 ```
 
-| <a href='https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/ocean'><img src='https://raw.githubusercontent.com/Mug-Costanza/tuiwall-presets/main/images/ocean.png' alt='Ocean' width='400'></a> |
+| <a href='https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/ocean'><img src='https://raw.githubusercontent.com/Mug-Costanza/tuiwall-presets/main/images/ocean.gif' alt='Ocean' width='400'></a> |
 | :--- |
 | [View Source](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/ocean) |
 
