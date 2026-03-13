@@ -158,6 +158,19 @@ tuiwall install template
 
 </details>
 
+<details><summary><b>Tetris</b> - Falling tetrominos</summary>
+
+**Install:**
+```bash
+tuiwall install tetris
+```
+
+| <a href='https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/tetris'><img src='https://raw.githubusercontent.com/Mug-Costanza/tuiwall-presets/main/images/tetris.gif' alt='Tetris' width='400'></a> |
+| :--- |
+| [View Source](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/tetris) |
+
+</details>
+
 
 </details>
 
