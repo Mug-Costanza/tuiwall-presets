@@ -70,14 +70,16 @@ tuiwall install snowfall
 ### Animation
 <details><summary>Click to view category</summary>
 
-<details><summary><b>Donut</b> - Spinning ASCII donut (No Preview)</summary>
+<details><summary><b>Donut</b> - Spinning ASCII donut</summary>
 
 **Install:**
 ```bash
 tuiwall install donut
 ```
 
-[View Source](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/donut)
+| <a href='https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/donut'><img src='https://raw.githubusercontent.com/Mug-Costanza/tuiwall-presets/main/images/donut.gif' alt='Donut' width='400'></a> |
+| :--- |
+| [View Source](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/donut) |
 
 </details>
 
