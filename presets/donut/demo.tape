@@ -5,12 +5,13 @@ Set Height 600
 Set TypingSpeed 0ms
 
 # Start a fresh tmux session inside the recording
+Type "tmux" Enter
 Type "tmux new-session -d -s vhs_session && tmux attach-session -t vhs_session" Enter
 Sleep 1s
 
 # Enable tuiwall and set the specific preset
 Type "tuiwall set donut" Enter
-Sleep 1s
+Sleep 2s
 Type "tuiwall enable" Enter
 
 # Capture 10 seconds of animation
