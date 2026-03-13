@@ -45,7 +45,7 @@ tuiwall install ocean
 tuiwall install rain
 ```
 
-| <a href='https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/rain'><img src='https://raw.githubusercontent.com/Mug-Costanza/tuiwall-presets/main/images/rain.png' alt='Rain' width='400'></a> |
+| <a href='https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/rain'><img src='https://raw.githubusercontent.com/Mug-Costanza/tuiwall-presets/main/images/rain.gif' alt='Rain' width='400'></a> |
 | :--- |
 | [View Source](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/rain) |
 
