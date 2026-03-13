@@ -143,7 +143,7 @@ tuiwall install template
 tuiwall install stats
 ```
 
-| <a href='https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/stats'><img src='https://raw.githubusercontent.com/Mug-Costanza/tuiwall-presets/main/images/stats.png' alt='Stats' width='400'></a> |
+| <a href='https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/stats'><img src='https://raw.githubusercontent.com/Mug-Costanza/tuiwall-presets/main/images/stats.gif' alt='Stats' width='400'></a> |
 | :--- |
 | [View Source](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/stats) |
 
