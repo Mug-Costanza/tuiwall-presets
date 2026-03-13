@@ -108,14 +108,16 @@ tuiwall install clock
 ### Misc
 <details><summary>Click to view category</summary>
 
-<details><summary><b>DVD</b> - Bouncing DVD text (No Preview)</summary>
+<details><summary><b>DVD</b> - Bouncing DVD text</summary>
 
 **Install:**
 ```bash
 tuiwall install dvd
 ```
 
-[View Source](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/dvd)
+| <a href='https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/dvd'><img src='https://raw.githubusercontent.com/Mug-Costanza/tuiwall-presets/main/images/dvd.gif' alt='DVD' width='400'></a> |
+| :--- |
+| [View Source](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/dvd) |
 
 </details>
 
