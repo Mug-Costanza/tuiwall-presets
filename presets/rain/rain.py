@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # vim: set expandtab shiftwidth=4 softtabstop=4 tabstop=4:
 # -*- mode: python; indent-tabs-mode: nil; python-indent-offset: 4; -*-
+# tuiwall preset file
 
 # --- TUIWALL METADATA ---
 # Name: Rain
@@ -17,8 +18,6 @@ def main(stdscr):
     stdscr.refresh()
     curses.start_color()
     curses.use_default_colors()
-
-    curses.nonl()
 
     # Colors (may vary by terminal; still fine without color support)
     curses.init_pair(1, 12, -1)  # blue-ish
