@@ -94,7 +94,7 @@ tuiwall install donut
 tuiwall install clock
 ```
 
-| <a href='https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/clock'><img src='https://raw.githubusercontent.com/Mug-Costanza/tuiwall-presets/main/images/clock.png' alt='Clock' width='400'></a> |
+| <a href='https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/clock'><img src='https://raw.githubusercontent.com/Mug-Costanza/tuiwall-presets/main/images/clock.gif' alt='Clock' width='400'></a> |
 | :--- |
 | [View Source](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/clock) |
 
