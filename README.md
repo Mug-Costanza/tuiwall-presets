@@ -12,6 +12,19 @@
 ### Ambiance
 <details><summary>Click to view category</summary>
 
+<details><summary><b>Ice</b> - Slowly-growing ice fragments</summary>
+
+**Install:**
+```bash
+tuiwall install ice
+```
+
+| <a href='https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/ice'><img src='https://raw.githubusercontent.com/Mug-Costanza/tuiwall-presets/main/images/ice.gif' alt='Ice' width='400'></a> |
+| :--- |
+| [View Source](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/ice) |
+
+</details>
+
 <details><summary><b>Leaves</b> - Falling leaves</summary>
 
 **Install:**
