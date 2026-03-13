@@ -19,7 +19,7 @@
 tuiwall install matrix
 ```
 
-| [![Matrix](https://raw.githubusercontent.com/Mug-Costanza/tuiwall-presets/main/images/matrix.png)](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/matrix) |
+| <a href='https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/matrix'><img src='https://raw.githubusercontent.com/Mug-Costanza/tuiwall-presets/main/images/matrix.gif' alt='Matrix' width='400'></a> |
 | :--- |
 | [View Source](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/matrix) |
 
@@ -32,7 +32,7 @@ tuiwall install matrix
 tuiwall install ocean
 ```
 
-| [![Ocean](https://raw.githubusercontent.com/Mug-Costanza/tuiwall-presets/main/images/ocean.png)](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/ocean) |
+| <a href='https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/ocean'><img src='https://raw.githubusercontent.com/Mug-Costanza/tuiwall-presets/main/images/ocean.png' alt='Ocean' width='400'></a> |
 | :--- |
 | [View Source](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/ocean) |
 
@@ -45,7 +45,7 @@ tuiwall install ocean
 tuiwall install rain
 ```
 
-| [![Rain](https://raw.githubusercontent.com/Mug-Costanza/tuiwall-presets/main/images/rain.png)](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/rain) |
+| <a href='https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/rain'><img src='https://raw.githubusercontent.com/Mug-Costanza/tuiwall-presets/main/images/rain.png' alt='Rain' width='400'></a> |
 | :--- |
 | [View Source](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/rain) |
 
@@ -58,7 +58,7 @@ tuiwall install rain
 tuiwall install snowfall
 ```
 
-| [![Snowfall](https://raw.githubusercontent.com/Mug-Costanza/tuiwall-presets/main/images/snowfall.png)](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/snowfall) |
+| <a href='https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/snowfall'><img src='https://raw.githubusercontent.com/Mug-Costanza/tuiwall-presets/main/images/snowfall.png' alt='Snowfall' width='400'></a> |
 | :--- |
 | [View Source](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/snowfall) |
 
@@ -94,7 +94,7 @@ tuiwall install donut
 tuiwall install clock
 ```
 
-| [![Clock](https://raw.githubusercontent.com/Mug-Costanza/tuiwall-presets/main/images/clock.png)](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/clock) |
+| <a href='https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/clock'><img src='https://raw.githubusercontent.com/Mug-Costanza/tuiwall-presets/main/images/clock.png' alt='Clock' width='400'></a> |
 | :--- |
 | [View Source](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/clock) |
 
@@ -141,7 +141,7 @@ tuiwall install template
 tuiwall install stats
 ```
 
-| [![Stats](https://raw.githubusercontent.com/Mug-Costanza/tuiwall-presets/main/images/stats.png)](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/stats) |
+| <a href='https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/stats'><img src='https://raw.githubusercontent.com/Mug-Costanza/tuiwall-presets/main/images/stats.png' alt='Stats' width='400'></a> |
 | :--- |
 | [View Source](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/stats) |
 
