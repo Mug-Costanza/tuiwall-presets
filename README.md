@@ -58,7 +58,7 @@ tuiwall install rain
 tuiwall install snowfall
 ```
 
-| <a href='https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/snowfall'><img src='https://raw.githubusercontent.com/Mug-Costanza/tuiwall-presets/main/images/snowfall.png' alt='Snowfall' width='400'></a> |
+| <a href='https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/snowfall'><img src='https://raw.githubusercontent.com/Mug-Costanza/tuiwall-presets/main/images/snowfall.gif' alt='Snowfall' width='400'></a> |
 | :--- |
 | [View Source](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/snowfall) |
 
