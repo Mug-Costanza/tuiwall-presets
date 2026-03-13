@@ -64,14 +64,16 @@ tuiwall install snowfall
 
 </details>
 
-<details><summary><b>Starfield</b> - Shifting and falling stars (No Preview)</summary>
+<details><summary><b>Starfield</b> - Shifting and falling stars</summary>
 
 **Install:**
 ```bash
 tuiwall install starfield
 ```
 
-[View Source](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/starfield)
+| <a href='https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/starfield'><img src='https://raw.githubusercontent.com/Mug-Costanza/tuiwall-presets/main/images/starfield.gif' alt='Starfield' width='400'></a> |
+| :--- |
+| [View Source](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/starfield) |
 
 </details>
 
