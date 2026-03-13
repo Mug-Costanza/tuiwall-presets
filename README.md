@@ -12,6 +12,19 @@
 ### Ambiance
 <details><summary>Click to view category</summary>
 
+<details><summary><b>Leaves</b> - Falling leaves</summary>
+
+**Install:**
+```bash
+tuiwall install leaves
+```
+
+| <a href='https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/leaves'><img src='https://raw.githubusercontent.com/Mug-Costanza/tuiwall-presets/main/images/leaves.gif' alt='Leaves' width='400'></a> |
+| :--- |
+| [View Source](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/leaves) |
+
+</details>
+
 <details><summary><b>Matrix</b> - Digital matrix rain</summary>
 
 **Install:**
