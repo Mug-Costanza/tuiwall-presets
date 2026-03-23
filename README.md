@@ -12,6 +12,17 @@
 ### Ambiance
 <details><summary>Click to view category</summary>
 
+<details><summary><b>Bubbles</b> - Rising colorful bubbles (No Preview)</summary>
+
+**Install:**
+```bash
+tuiwall install bubbles
+```
+
+[View Source](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/bubbles)
+
+</details>
+
 <details><summary><b>Matrix</b> - Digital matrix rain</summary>
 
 **Install:**
