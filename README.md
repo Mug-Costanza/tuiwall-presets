@@ -23,6 +23,30 @@ tuiwall install bubbles
 
 </details>
 
+<details><summary><b>Koi Pond</b> - Koi gliding under lily pads; light, weather and season follow your clock</summary>
+
+**Install:**
+```bash
+tuiwall install koipond
+```
+
+| <a href='https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/koipond'><img src='https://raw.githubusercontent.com/Mug-Costanza/tuiwall-presets/main/images/koipond.gif' alt='Koi Pond' width='400'></a> |
+| :--- |
+| [View Source](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/koipond) |
+
+</details>
+
+<details><summary><b>Low Orbit</b> - The view from a space station: sunrises, city lights, lightning and aurora (No Preview)</summary>
+
+**Install:**
+```bash
+tuiwall install orbit
+```
+
+[View Source](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/orbit)
+
+</details>
+
 <details><summary><b>Matrix</b> - Digital matrix rain</summary>
 
 **Install:**
@@ -33,6 +57,17 @@ tuiwall install matrix
 | <a href='https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/matrix'><img src='https://raw.githubusercontent.com/Mug-Costanza/tuiwall-presets/main/images/matrix.gif' alt='Matrix' width='400'></a> |
 | :--- |
 | [View Source](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/matrix) |
+
+</details>
+
+<details><summary><b>Night Drive</b> - Cruising down the highway; the sky and the traffic follow your local time (No Preview)</summary>
+
+**Install:**
+```bash
+tuiwall install nightdrive
+```
+
+[View Source](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/nightdrive)
 
 </details>
 
@@ -72,6 +107,17 @@ tuiwall install snowfall
 | <a href='https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/snowfall'><img src='https://raw.githubusercontent.com/Mug-Costanza/tuiwall-presets/main/images/snowfall.gif' alt='Snowfall' width='400'></a> |
 | :--- |
 | [View Source](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/snowfall) |
+
+</details>
+
+<details><summary><b>Window Seat</b> - Lo-fi train ride along a lake, under a sky that follows your local time (No Preview)</summary>
+
+**Install:**
+```bash
+tuiwall install windowseat
+```
+
+[View Source](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/windowseat)
 
 </details>
 
