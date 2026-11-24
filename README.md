@@ -110,14 +110,16 @@ tuiwall install snowfall
 
 </details>
 
-<details><summary><b>Window Seat</b> - Lo-fi train ride along a lake, under a sky that follows your local time (No Preview)</summary>
+<details><summary><b>Window Seat</b> - Lo-fi train ride along a lake, under a sky that follows your local time</summary>
 
 **Install:**
 ```bash
 tuiwall install windowseat
 ```
 
-[View Source](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/windowseat)
+| <a href='https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/windowseat'><img src='https://raw.githubusercontent.com/Mug-Costanza/tuiwall-presets/main/images/windowseat.gif' alt='Window Seat' width='400'></a> |
+| :--- |
+| [View Source](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/windowseat) |
 
 </details>
 
