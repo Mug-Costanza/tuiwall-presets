@@ -62,14 +62,16 @@ tuiwall install matrix
 
 </details>
 
-<details><summary><b>Night Drive</b> - Cruising down the highway; the sky and the traffic follow your local time (No Preview)</summary>
+<details><summary><b>Night Drive</b> - Cruising down the highway; the sky and the traffic follow your local time</summary>
 
 **Install:**
 ```bash
 tuiwall install nightdrive
 ```
 
-[View Source](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/nightdrive)
+| <a href='https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/nightdrive'><img src='https://raw.githubusercontent.com/Mug-Costanza/tuiwall-presets/main/images/nightdrive.gif' alt='Night Drive' width='400'></a> |
+| :--- |
+| [View Source](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/nightdrive) |
 
 </details>
 
