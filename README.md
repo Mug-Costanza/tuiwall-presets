@@ -36,14 +36,16 @@ tuiwall install koipond
 
 </details>
 
-<details><summary><b>Low Orbit</b> - The view from a space station: sunrises, city lights, lightning and aurora (No Preview)</summary>
+<details><summary><b>Low Orbit</b> - The view from a space station: sunrises, city lights, lightning and aurora</summary>
 
 **Install:**
 ```bash
 tuiwall install orbit
 ```
 
-[View Source](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/orbit)
+| <a href='https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/orbit'><img src='https://raw.githubusercontent.com/Mug-Costanza/tuiwall-presets/main/images/orbit.gif' alt='Low Orbit' width='400'></a> |
+| :--- |
+| [View Source](https://github.com/Mug-Costanza/tuiwall-presets/tree/main/presets/orbit) |
 
 </details>
 
